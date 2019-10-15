@@ -23,6 +23,7 @@ I suggest picking a business question that’s related to Baltimore City, Baltim
  - [Baltimore City Government Website](https://www.baltimorecity.gov/)
  - [Baltimore City Government Open Data](https://data.baltimorecity.gov/)
  - [Baltimore Neighborhood Indicators Alliance- BNIA](https://data-bniajfi.opendata.arcgis.com/)
+ - [Maryland Food System Data, Johns Hopkins Center for a Livable Future](https://data-clf.hub.arcgis.com)
  - [American Community Survey](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)
  - [Baltimore Brew](https://www.baltimorebrew.com/)
 
