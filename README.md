@@ -1,4 +1,6 @@
 # Academic Performance and Civic Engagement
+By Andrea Niu, Michele Lan, and Serfine Okeyo
+
 After the most recent presidential election, many find themselves wondering how voter turnout can be improved among the younger population of voting age. How can we improve young adult civic engagement through the education system? It is vital to investigate the factors that influence voter turnout like the rate of droupouts, chronic absences, and High school completion. Our findings showed that the number of empowered yooung voters increased as the absenteeism and dropout rates decreased. 
  
 
