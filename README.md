@@ -23,34 +23,63 @@ https://www2.ed.gov/about/inits/ed/chronicabsenteeism/toolkit.pdf
 
 # Our Solution
 Dear Teachers and Legislators, help kids stay in school! Actions that schools can take include
+
 -Track attendance to identify students at risk of becoming chronically absent
+
 -Set milestones towards graduation to discourage dropping out 
+
 -For high priority schools/CSAs, investigate factors resulting in high dropout or chronic absence rates 
 
 Business Answer: We should focus on reducing rates of chronic absenteeism and dropping out to boost voter turnout as well as prioritize areas with high absences and low voter turnout similar to Patterson Park, N & E.
 
 We want to encourage
+
 -A positive environment/reinforcement
+
 -Student government elections
+
 -Exposure to current events and civic engagement
+
 -An environment to question/discuss beliefs
 
+
 Possible explanations for low voter tunrout:
+
 -Schools/CSAs with high dropout or chronic absence rates may result in students missing key explanations on why civic engagement is important.
+
 -Systemic inequities in these CSAs (socioeconomic / demographic) may be responsible for both high absence and dropout rates and low voter participation
+
 
 So, Which education system metrics should we target to increase voter turnout?
 Which Baltimore County areas should we prioritize our efforts towards? 
+
 
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151452.png "Voter Turnout vs HS Dropout rates")
 
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151518.png "Voter Turnout vs HS Chronic Absence rates")
 
 Chronic absence and dropping out are significant predictors of lower voter turnout. 
+Each 10% increase in HS dropouts is correlated with a 16% decrease in voter turnout.
+Each 10% increase in chronic absenteeism is correlated with a 5% decrease in voter turnout.
 
-What’s your business answer and how did you come to this conclusion from your data analysis? What is the impact of your findings? Tell your reader up front what you found, and then support your findings with summary statements about and links to your analysis that you’ve uploaded to your GitHub repository. In some cases, you won’t be able to “solve” the business question because this is related to a larger systemic challenge or something that relies on many outside forces to solve. That’s okay--explain why this might be the case, and use your data analysis to support these statements. Interpret your methods in big-picture analysis, simple linear regression, correlation, multiple linear regression, and clustering into words that a general audience can understand, and relate these findings back to your original business question. [Clear data visualizations](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and data tables can easily help point out trends, outliers, and distributions. Initially you told us why we should care about the problem, now tell us what you, an industry, company, group, demographic, or the reader can do about it based on your analysis. Be specific about your business answer, but don’t get lost in the details. Instead of saying “the trend shows that there is a problem with employment,” specifically point out the decline/increase or use a data visualization to specifically point out problem points. However, don’t get too specific in providing context for your analysis--the audience might want to point out specific significant variables from a linear regression model, but you don’t need to post a screenshot of the result of your full analysis table or list out the prediction equation or exact p-values for each variable. This section is the “meat” of your executive summary, but this shouldn’t be longer than a couple paragraphs.
+![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20152422.png "Cluster Analysis Results")
+![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20152448.png "Distribution of Metrics for Cluster Anchors")
+
+“Which Baltimore County areas should we prioritize our efforts towards?”
+
+Areas similar to Patterson Park, N E are part of a cluster of CSAs with the highest chronic absence and dropout rates and lowest voter turnouts.
+
 
 # Future Suggestions
+In the future we need to 
+
+-Obtain more recent datasets and perform analysis on year-over-year trends to see if the pattern is consistent
+-Seek more complete datasets (including Baltimore City)
+-Examine relationship with voter registration
+-Examine demographic and socioeconomic factors characteristic of the high priority CSAs
+-Try different numbers of clusters in research
+
+
 Now that you told us what needs to happen for your problem as a result of your analysis, how does this come into play in the next 6 months? Year? Ten years? What would you recommend happens in this industry/situation from an organizational, policy, leadership, or some other type of shift or pivot? Why is the future brighter based on this change and why should people care about this? This is similar to a conclusion, but also gives a clear call-to-action to the designated group/people who can do something about your original business question. This section should be about one paragraph.
 
 ## Additional Notes and Useful Links:
