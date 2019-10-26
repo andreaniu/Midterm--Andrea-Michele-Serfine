@@ -18,7 +18,7 @@ In the future, these findings will allow us to:
 What do you remember when you think of the 2016 election? For many, shock was the predominant emotion they felt in the wake of Trump’s election. Many expected that Clinton would inevitably win, but poor voter turnout in key states may have helped Trump win the election. Consequently, we are interested in investigating the factors that influence voter turnout. Hence, this business question is an important issue to consider because *if high numbers of young voters do not show up to vote, the elected representatives of the Baltimore area and the entire U.S. will poorly reflect the wants and needs of its younger residents*. 
 
 Voter turnout in the United States is consistently lower than other developed nations, ranking at about 26 out of 32 OECD nations ([source](https://www.pewresearch.org/fact-tank/2018/05/21/u-s-voter-turnout-trails-most-developed-countries/)). Almost 92 million eligible Americans did not vote in the 2016 presidential elections, which represents almost an entire third of the total US population ([source](https://www.americanprogress.org/issues/democracy/reports/2018/07/11/453319/increasing-voter-participation-america/)). Furthermore, for young people aged 18-24, the 2018 midterm elections only had a turnout of 35.8% ([source](https://www.fairvote.org/voter_turnout#voter_turnout_101)).
-Young people are an important and influential demographic in elections. Furthermore, young voters represent a demographic that is more diverse in terms of race, sexual orientation, religion, and gender than older generations. Consequently, neglecting to encourage young voter participation may result in the election of representatives who fail to support the interests of young voters, and allow the passage of exclusive government policies that further systemic inequities. 
+Young people are an important and influential, but generally underrepresented demographic in elections. Furthermore, young voters represent a demographic that is **more diverse in terms of race, sexual orientation, religion, and gender** than older generations. Consequently, neglecting to encourage young voter participation may result in the election of representatives who fail to support the interests of young voters, and allow the passage of **exclusive government policies that further systemic inequities.**
 
 Hence, encouraging young people's participation in the United States democracy through elections is essential. Since education has been proven to correlate with increased civic engagement ([source](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-5907.2009.00400.x)), we will examine what educational metrics we can target to promote higher voter turnout.
 
@@ -29,6 +29,8 @@ Hence, encouraging young people's participation in the United States democracy t
 
 
 # Our Solution
+
+
 Possible explanations for low voter tunrout:
 
 
