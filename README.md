@@ -56,17 +56,20 @@ To achieve our solution, we performed the following types of data analysis:
 
 * *Simple linear regression*: To better visualize the relationship between voter turnout and dropout rates, we performed simple linear regressions against chronic absence rates and dropout rates and plotted them.
 
+**Chronic Absence**
    The linear regression of chronic absence rates compared to voter turnout revealed a **negative relationship** between the two and predicted with about **53% confidence** that **voter turnout would decrease by 6% given a 10% increase in absence rates**.
 
 
-![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151518.png "Voter Turnout vs HS Chronic Absence rates")
+   ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151518.png "Voter Turnout vs HS Chronic Absence rates")
 
-Takeaway: Each 10% increase in chronic absence rates is correlated with a 6% decrease in voter turnout.
+   Takeaway: Each 10% increase in chronic absence rates is correlated with a 6% decrease in voter turnout.
 
-The linear regression of dropout rates compared to voter turnout predicted with **31% confidence** that **voter turnout would decrease by 32% given a 10% increase in dropout rates**. 
+
+**Dropout Rates**
+   The linear regression of dropout rates compared to voter turnout predicted with **31% confidence** that **voter turnout would decrease by 32% given a 10% increase in dropout rates**. 
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151452.png "Voter Turnout vs HS Dropout rates")
 
-Takeaway: Each 10% increase in dropout rates is correlated with a 32% decrease in voter turnout.
+   Takeaway: Each 10% increase in dropout rates is correlated with a 32% decrease in voter turnout.
 
 
 * *Cluster Analysis*: In order to identify the areas with the worst voter turnout and the greatest need for changes in the education system, we analyzed how to best sort the districts into 3 groups based on the following characteristics: suspension/expulsion rate, US Govt. pass rate, chronic absence rate, HS completion rate, dropout rate, and voter turnout.
