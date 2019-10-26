@@ -36,7 +36,7 @@ Hence, encouraging young people's participation in the United States democracy t
 
 Our data analysis indicates the following conclusions to our business questions:
 * High **chronic absence rates and dropout rates** *may* result in lower voter turnout rates.
-* Areas with similar rates of voter turnout, chronic absences, and dropout rates as **Patterson Park, N&E** need the most support when it comes to improving education metrics to increase voter participation.
+* Areas with similar rates of voter turnout, chronic absences, and dropout rates as **Patterson Park N&E** need the most support when it comes to improving education metrics to increase voter participation.
 
 Some possible business explanations these conclusions include that:
 * Schools/CSAs with high dropout or chronic absence rates may result in students missing key explanations on why civic engagement is important.
@@ -56,19 +56,19 @@ To achieve our solution, we performed the following types of data analysis:
 
 * *Simple linear regression*: To better visualize the relationship between voter turnout and dropout rates, we performed simple linear regressions against chronic absence rates and dropout rates and plotted them.
 
-**Chronic Absence**
-   The linear regression of chronic absence rates compared to voter turnout revealed a **negative relationship** between the two and predicted with about **53% confidence** that **voter turnout would decrease by 6% given a 10% increase in absence rates**.
+   **Chronic Absence**  
+     
+   The linear regression of chronic absence rates compared to voter turnout revealed a **negative relationship** between the two and predicted with about **53% confidence** that **voter turnout would decrease by 6% given a 10% increase in absence rates**.  
 
 
-   ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151518.png "Voter Turnout vs HS Chronic Absence rates")
+   ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151518.png "Voter Turnout vs HS Chronic Absence rates")  
+   Takeaway: Each 10% increase in chronic absence rates is correlated with a 6% decrease in voter turnout.  
 
-   Takeaway: Each 10% increase in chronic absence rates is correlated with a 6% decrease in voter turnout.
 
-
-**Dropout Rates**
+   **Dropout Rates**  
+     
    The linear regression of dropout rates compared to voter turnout predicted with **31% confidence** that **voter turnout would decrease by 32% given a 10% increase in dropout rates**. 
-![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151452.png "Voter Turnout vs HS Dropout rates")
-
+![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151452.png "Voter Turnout vs HS Dropout rates")  
    Takeaway: Each 10% increase in dropout rates is correlated with a 32% decrease in voter turnout.
 
 
@@ -77,11 +77,11 @@ To achieve our solution, we performed the following types of data analysis:
    We identified three 'representative' areas for each cluster, and described their traits below:
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20152422.png "Cluster Analysis Results")
 
-   Since **Patterson Park, N & E** was characterized by the **lowest voter turnout and highest chronic absence rate**, (as well as high suspension/expulsion, and lowest US Govt. pass rate), it is a representative area for the Baltimore districts that require the most attention and support for education system reform to promote voter turnout. Districts that share similar characteristics to Patterson Park, N & E include Greenmount East, Cherry Hill, Oldtown/Middle East, and others. These areas should be prioritized when allocating resources or funding to increase young voter turnout.
+   Since **Patterson Park N & E** was characterized by the **lowest voter turnout and highest chronic absence rate**, (as well as high suspension/expulsion, and lowest US Govt. pass rate), it is a representative area for the Baltimore districts that require the most attention and support for education system reform to promote voter turnout. Districts that share similar characteristics to Patterson Park N & E include Greenmount East, Cherry Hill, Oldtown/Middle East, and others. These areas should be prioritized when allocating resources or funding to increase young voter turnout.
 
 # Future Suggestions
 
-We should focus on reducing rates of chronic absenteeism and dropouts to boost voter turnout, and also prioritize areas with high absences and low voter turnout similar to Patterson Park, N & E.
+We should focus on reducing rates of chronic absenteeism and dropouts to boost voter turnout, and also prioritize areas with high absences and low voter turnout similar to Patterson Park N & E.
 
 What steps can we take to achieve this? 
 To Teachers and School Administrators: help kids stay in school! Actions that schools can take include:
