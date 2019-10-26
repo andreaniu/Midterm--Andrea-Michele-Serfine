@@ -49,28 +49,32 @@ A limitation to our analysis is that, despite identifying the metrics associated
 
 
 To achieve our solution, we performed the following types of data analysis:
-* Multivariable Regression: we examined a variety of education metrics to identify how significantly correlated each one is with voter turnout. The regression indicated that, of all the education metrics examined, only **chronic absence rates and dropout rates** were significantly correlated with voter turnout. The multivariable regression model indicated that for each 10% increase in chronic absences, a district's voter turnout would decrease by 5%. Also, for each 10% increase in dropout rates, a district's voter turnout would drop by 16%. 
+* *Multivariable Regression*: we examined a variety of education metrics to identify how significantly correlated each one is with voter turnout. The regression indicated that, of all the education metrics examined, only **chronic absence rates and dropout rates** were significantly correlated with voter turnout. The multivariable regression model indicated that for each 10% increase in chronic absences, a district's voter turnout would decrease by 5%. Also, for each 10% increase in dropout rates, a district's voter turnout would drop by 16%. 
 ![alt_text](link to multivar table)
 
    The multivariable regression model also predicted that in an ideal district with no chronic absences or dropouts, the **best voting turnout could be 68.8%**. This model can **account for 60% of the Baltimore areas** analyzed, so we have reasonable confidence in its ability to estimate voter turnout based on education metrics.
 
-* Simple linear regression: To better visualize the relationship between voter turnout and dropout rates, we performed simple linear regressions against chronic absence rates and dropout rates and plotted them.
+* *Simple linear regression*: To better visualize the relationship between voter turnout and dropout rates, we performed simple linear regressions against chronic absence rates and dropout rates and plotted them.
 
    The linear regression of chronic absence rates compared to voter turnout revealed a **negative relationship** between the two and predicted with about **53% confidence** that **voter turnout would decrease by 6% given a 10% increase in absence rates**.
 
 
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151518.png "Voter Turnout vs HS Chronic Absence rates")
 
-Takeaway: Each 10% increase in HS dropouts is correlated with a 16% decrease in voter turnout.
+Takeaway: Each 10% increase in chronic absence rates is correlated with a 6% decrease in voter turnout.
 
 The linear regression of dropout rates compared to voter turnout predicted with **31% confidence** that **voter turnout would decrease by 32% given a 10% increase in dropout rates**. 
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151452.png "Voter Turnout vs HS Dropout rates")
 
-Takeaway: Each 10% increase in chronic absenteeism is correlated with a 5% decrease in voter turnout.
+Takeaway: Each 10% increase in dropout rates is correlated with a 32% decrease in voter turnout.
 
 
+* *Cluster Analysis*: In order to identify the areas with the worst voter turnout and the greatest need for changes in the education system, we analyzed how to best sort the districts into 3 groups based on the following characteristics: suspension/expulsion rate, US Govt. pass rate, chronic absence rate, HS completion rate, dropout rate, and voter turnout.
+
+   We identified three 'representative' areas for each cluster, and described their traits below:
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20152422.png "Cluster Analysis Results")
 
+   Since **Patterson Park, N & E** was characterized by the **lowest voter turnout and highest chronic absence rate**, (as well as high suspension/expulsion, and lowest US Govt. pass rate), it is a representative area for the Baltimore districts that require the most attention and support for education system reform to promote voter turnout. Districts that share similar characteristics to Patterson Park, N & E include Greenmount East, Cherry Hill, Oldtown/Middle East, and others. These areas should be prioritized when allocating resources or funding to increase young voter turnout.
 
 # Future Suggestions
 
