@@ -18,32 +18,35 @@ In the future, these findings will allow us to:
 What do you remember when you think of the 2016 election? For many, shock was the predominant emotion they felt in the wake of Trump’s election. Many expected that Clinton would inevitably win, but poor voter turnout in key states may have helped Trump win the election. Consequently, we are interested in investigating the factors that influence voter turnout. Hence, this business question is an important issue to consider because *if high numbers of young voters do not show up to vote, the elected representatives of the Baltimore area and the entire U.S. will poorly reflect the wants and needs of its younger residents*. 
 
 Voter turnout in the United States is consistently lower than other developed nations, ranking at about 26 out of 32 OECD nations ([source](https://www.pewresearch.org/fact-tank/2018/05/21/u-s-voter-turnout-trails-most-developed-countries/)). Almost 92 million eligible Americans did not vote in the 2016 presidential elections, which represents almost an entire third of the total US population ([source](https://www.americanprogress.org/issues/democracy/reports/2018/07/11/453319/increasing-voter-participation-america/)). Furthermore, for young people aged 18-24, the 2018 midterm elections only had a turnout of 35.8% ([source](https://www.fairvote.org/voter_turnout#voter_turnout_101)).
-Young people are an important and influential, but generally underrepresented demographic in elections. Furthermore, young voters represent a demographic that is **more diverse in terms of race, sexual orientation, religion, and gender** than older generations. Consequently, neglecting to encourage young voter participation may result in the election of representatives who fail to support the interests of young voters, and allow the passage of **exclusive government policies that further systemic inequities.**
+Young people are an important but generally underrepresented demographic in elections. Furthermore, young voters represent a demographic that is **more diverse in terms of race, sexual orientation, religion, and gender** than older generations. Consequently, neglecting to encourage young voter participation may result in the election of representatives who fail to support the interests of young voters, and enables the passage of **exclusive government policies that further systemic inequities.**
 
 Hence, encouraging young people's participation in the United States democracy through elections is essential. Since education has been proven to correlate with increased civic engagement ([source](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-5907.2009.00400.x)), we will examine what educational metrics we can target to promote higher voter turnout.
 
+# Business Questions
+* Which education system metrics should we target to increase voter turnout?
+* Which Baltimore County areas should we prioritize our efforts towards? 
+
 **Datasets Used:**
 [Civic engagement](https://data.baltimorecity.gov/Neighborhoods/Neighborhood-Action-Sense-of-Community-2010/ipje-efsv)
- vs. [the education metrics of Baltimore County students](https://data.baltimorecity.gov/Neighborhoods/Education-and-Youth-2010-2013-/f9ua-ivaj)
+ vs. [the education metrics of Baltimore County students (HS only)](https://data.baltimorecity.gov/Neighborhoods/Education-and-Youth-2010-2013-/f9ua-ivaj)
 
-
+*Note: We used 2010 data for voter turnout and compared it with the 2010 education metrics for high schools (including suspension/expulsion rate, chronic absence rate, rate of passing US Govt. class, dropout rate, and completion rate).*
 
 # Our Solution
 
+Our data analysis indicates the following conclusions to our business questions:
+* High **chronic absence rates and dropout rates** *may* result in lower voter turnout rates.
+* Areas with similar rates of voter turnout, chronic absences, and dropout rates as **Patterson Park, N&E** need the most support when it comes to improving education metrics to increase voter participation.
 
-Possible explanations for low voter tunrout:
-
-
-
--Schools/CSAs with high dropout or chronic absence rates may result in students missing key explanations on why civic engagement is important.
-
--Systemic inequities in these CSAs (socioeconomic / demographic) may be responsible for both high absence and dropout rates and low voter participation
-
-
-So, Which education system metrics should we target to increase voter turnout?
-Which Baltimore County areas should we prioritize our efforts towards? 
+Some possible business explanations these conclusions include that:
+* Schools/CSAs with high dropout or chronic absence rates may result in students missing key explanations on why civic engagement is important.
+* Systemic inequities in these CSAs (socioeconomic / demographic) may be responsible for both high absence and dropout rates and low voter participation.
 
 
+The impact of these findings is that since we know what measurable aspects of the education systems are most closely related to voter turnout and which areas have the most severe situations, we can 1) predict voter turnout based on school absence and dropout metrics, 2) target those metrics to improve voter turnout, and 3) prioritize funding towards the schools that need the most support to increase voter turnout.
+
+To come to this solution, we performed the following types of data analysis:
+ 
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151452.png "Voter Turnout vs HS Dropout rates")
 
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151518.png "Voter Turnout vs HS Chronic Absence rates")
