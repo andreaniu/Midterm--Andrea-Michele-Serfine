@@ -50,7 +50,8 @@ A limitation to our analysis is that, despite identifying the metrics associated
 
 To achieve our solution, we performed the following types of data analysis:
 * *Multivariable Regression*: we examined a variety of education metrics to identify how significantly correlated each one is with voter turnout. The regression indicated that, of all the education metrics examined, only **chronic absence rates and dropout rates** were significantly correlated with voter turnout. The multivariable regression model indicated that for each 10% increase in chronic absences, a district's voter turnout would decrease by 5%. Also, for each 10% increase in dropout rates, a district's voter turnout would drop by 16%. 
-![alt_text](link to multivar table)
+
+![alt_text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Multivariable%20Table.png "Multivariable Table")
 
    The multivariable regression model also predicted that in an ideal district with no chronic absences or dropouts, the **best voting turnout could be 68.8%**. This model can **account for 60% of the Baltimore areas** analyzed, so we have reasonable confidence in its ability to estimate voter turnout based on education metrics.
 
