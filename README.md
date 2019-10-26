@@ -43,25 +43,33 @@ Some possible business explanations these conclusions include that:
 * Systemic inequities in these CSAs (socioeconomic / demographic) may be responsible for both high absence and dropout rates and low voter participation.
 
 
-The impact of these findings is that since we know what measurable aspects of the education systems are most closely related to voter turnout and which areas have the most severe situations, we can 1) predict voter turnout based on school absence and dropout metrics, 2) target those metrics to improve voter turnout, and 3) prioritize funding towards the schools that need the most support to increase voter turnout.
+The impact of these findings is that since we know what measurable aspects of the education systems are most closely related to voter turnout and which areas have the most severe situations, we can 1) predict voter turnout based on school absence and dropout metrics, 2) target those metrics to improve voter turnout, and 3) prioritize funding towards the schools that need the most support to increase voter turnout. 
 
-To come to this solution, we performed the following types of data analysis:
- 
-![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151452.png "Voter Turnout vs HS Dropout rates")
+A limitation to our analysis is that, despite identifying the metrics associated with voter turnout, we do not know the relationship between them (i.e. correlation vs. causation), and we did not identify what factors might be responsible for  higher absence and dropouts, and whether those factors are also responsible for reduced voter turnout.
+
+
+To achieve our solution, we performed the following types of data analysis:
+* Multivariable Regression: we examined a variety of education metrics to identify how significantly correlated each one is with voter turnout. The regression indicated that, of all the education metrics examined, only **chronic absence rates and dropout rates** were significantly correlated with voter turnout. The multivariable regression model indicated that for each 10% increase in chronic absences, a district's voter turnout would decrease by 5%. Also, for each 10% increase in dropout rates, a district's voter turnout would drop by 16%. 
+![alt_text](link to multivar table)
+
+   The multivariable regression model also predicted that in an ideal district with no chronic absences or dropouts, the **best voting turnout could be 68.8%**. This model can **account for 60% of the Baltimore areas** analyzed, so we have reasonable confidence in its ability to estimate voter turnout based on education metrics.
+
+* Simple linear regression: To better visualize the relationship between voter turnout and dropout rates, we performed simple linear regressions against chronic absence rates and dropout rates and plotted them.
+
+   The linear regression of chronic absence rates compared to voter turnout revealed a **negative relationship** between the two and predicted with about **53% confidence** that **voter turnout would decrease by 6% given a 10% increase in absence rates**.
+
 
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151518.png "Voter Turnout vs HS Chronic Absence rates")
 
-Chronic absence and dropping out are significant predictors of lower voter turnout. 
-Each 10% increase in HS dropouts is correlated with a 16% decrease in voter turnout.
-Each 10% increase in chronic absenteeism is correlated with a 5% decrease in voter turnout.
+Takeaway: Each 10% increase in HS dropouts is correlated with a 16% decrease in voter turnout.
+
+The linear regression of dropout rates compared to voter turnout predicted with **31% confidence** that **voter turnout would decrease by 32% given a 10% increase in dropout rates**. 
+![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20151452.png "Voter Turnout vs HS Dropout rates")
+
+Takeaway: Each 10% increase in chronic absenteeism is correlated with a 5% decrease in voter turnout.
+
 
 ![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20152422.png "Cluster Analysis Results")
-![alt text](https://github.com/jhu-business-analytics/Midterm--Andrea-Michele-Serfine/blob/master/Annotation%202019-10-25%20152448.png "Distribution of Metrics for Cluster Anchors")
-
-
-“Which Baltimore County areas should we prioritize our efforts towards?”
-
-Areas similar to Patterson Park, N&E are part of a cluster of CSAs with the highest chronic absence and dropout rates and lowest voter turnouts.
 
 
 # Future Suggestions
